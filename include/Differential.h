@@ -27,5 +27,6 @@ private:
     RotationalState rightOutput_;
 
     double finalDriveRatio_;
+
     double efficiency_;
 };
