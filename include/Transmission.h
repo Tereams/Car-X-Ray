@@ -1,9 +1,6 @@
 #pragma once
 
-struct RotationalState {
-    double torqueNm;
-    double rpm;
-};
+#include "RotationalState.h"
 
 class Transmission {
 public:

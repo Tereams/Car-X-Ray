@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../include/RotationalState.h"
+#include "RotationalState.h"
 
 class Differential {
 public:
