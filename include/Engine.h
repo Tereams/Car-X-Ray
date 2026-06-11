@@ -1,5 +1,7 @@
 #pragma once
 
+#include "RotationalState.h"
+
 class Engine {
 public:
     Engine();
@@ -17,8 +19,7 @@ public:
     void update(double deltaTime);
 
     // outputs
-    double getRPM() const;
-    double getTorque() const;
+    RotationalState getOutput() const;
     double getTemperature() const;
 
 private:
@@ -26,7 +27,6 @@ private:
 
     double throttle_;
 
-    double rpm_;
-    double torque_;
+    RotationalState output_;
     double temperature_;
 };
